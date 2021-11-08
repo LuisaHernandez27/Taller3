@@ -11,12 +11,14 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/estilo.css" />
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Facultades</h1>
         
-        <table class="table">
-            <thead>
+        <a href="ControladorCategoria?accion=Eliminar" class="boton-nuevo">+</a>
+        <table class="tabla">
+            <thead class="TablaCabecera">
               <tr>
                 <th scope="col">Código</th>
                 <th scope="col">Descripción</th>
@@ -25,22 +27,23 @@
             </thead>
             <tbody>
 
-               <%
+                <%
                    for(int i=1;i<4;i++){
-                  %>
-              <tr>
-                <td>Nombre facultad</td>
-                <td>Descripcion facultad</td>
-                <td>          
-                    <a href="ControladorCategoria?accion=Editar" class="btn btn-primary">Editar</a>
-                    <a href="ControladorCategoria?accion=Eliminar" class="btn btn-primary">Eliminar</a>
-                </td>
+                %>
+                <tr class="fila">
+                    <td class="celdita">Nombre facultad</td>
+                    <td class="celdita">Descripcion facultad</td>
+                    <td class="celdita">          
+                        <a href="ControladorCategoria?accion=Editar"  class="boton-verde">Editar</a>
+                        <a href="ControladorCategoria?accion=Eliminar" class="boton-rojo">Eliminar</a>
+                    </td>
 
-              </tr>
-             <%
-                 }
-             %>
+                </tr>
+                <%
+                    }
+                %>
             </tbody>
-          </table>
+        </table>
+          
     </body>
 </html>

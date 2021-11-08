@@ -9,6 +9,56 @@
         "section"
         "footer";    
 }
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.tabla{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+   border-spacing: 0px;
+}
+
+.TablaCabecera{
+    height: 50px;
+    background: #652A2CCC;
+    color: #fff;
+}
+
+.celdita{
+    align-content: center;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.fila{
+    height: 40px
+}
+
+.boton-verde{
+    background-color: #04AA6D;
+    color:#fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.boton-rojo{
+    background-color: brown;
+    color:#fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.boton-nuevo{
+    background-color: aqua;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 4px;
+}
 
 .section1{
     
