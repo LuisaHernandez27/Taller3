@@ -52,12 +52,18 @@ h1{
     text-decoration: none;
 }
 .boton-nuevo{
-    background-color: aqua;
-    font-size: 20px;
+    background-color: lightgray;
+    color: #652A2CCC;
+    font-size: 40px;
     width: 50px;
     height: 50px;
     display: block;
-    border-radius: 4px;
+    float: right;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 8%;
+    margin-bottom: 10px;
+    text-decoration: none;
 }
 
 .section1{
