@@ -1,22 +1,75 @@
 .container{
     display: grid;
     box-sizing: border-box;
-    margin:auto 2%;
-    border-width: 3px;
-    border-style: solid;
-    border-color: gray;
+    margin:auto 45px;
     gap:5px;
-    width: 96%;
     grid-template-areas: 
-
+   
         "nav"      
         "section"
         "footer";    
 }
 
 .section1{
-    margin-top: 300px;
-    width: 100%;
+    
+    width: 50%;
     height:130px;
+    margin-left: 20%;
 }
 
+.logo{
+    width: 20%;
+    height: 50%;
+}
+
+.logousuario{
+    width: 20%;
+    height: 50%;
+}
+
+.footer{
+    grid-area:footer; 
+    text-align: center;
+    background-color: crimson;
+    width: 100%;
+    height: 150px;
+    margin-top: 250px;
+    color: white;
+}
+
+.footer2{
+  
+   background-color: red;
+    
+}
+
+div.noticia {
+  width: 80%;
+  margin: 10px auto;
+  font-family: arial;
+}
+
+div.noticia img.izquierda {
+  float: left;
+  margin-right: 15px;
+  width: 40%;
+  height: 70%;
+  
+}
+
+div.noticia img.derecha {
+  float: right;
+  margin-left: 15px;
+  width: 40%;
+  height: 70%;
+}
+
+div.reset {
+  clear: both;
+}
+
+div.noticia1 img.izquierda1{
+    width: 40%;
+  height: 70%;
+    
+}
