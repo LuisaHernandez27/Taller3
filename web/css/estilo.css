@@ -4,14 +4,14 @@
     margin:auto 45px;
     gap:5px;
     grid-template-areas: 
-   
+
         "nav"      
         "section"
         "footer";    
 }
 
 .section1{
-    
+
     width: 50%;
     height:130px;
     margin-left: 20%;
@@ -38,38 +38,52 @@
 }
 
 .footer2{
-  
-   background-color: red;
-    
+    background-color: #652A2CCC;
 }
 
 div.noticia {
-  width: 80%;
-  margin: 10px auto;
-  font-family: arial;
+    width: 80%;
+    margin: 5px auto;
+    font-family: arial;
 }
 
+
+div.noticia1{
+    background-color: lightgray;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;    
+    
+}
+div.noticia1 img.izquierda1{
+    width: 150px;;
+    height: 100%;
+    float: left;
+    margin-right: 55%;
+    
+}
 div.noticia img.izquierda {
-  float: left;
-  margin-right: 15px;
-  width: 40%;
-  height: 70%;
-  
+    float: left;
+    margin-right: 15px;
+    width: 40%;
+    height: 70%
+
 }
 
 div.noticia img.derecha {
-  float: right;
-  margin-left: 15px;
-  width: 40%;
-  height: 70%;
+    float: right;
+    margin-left: 15px;
+    width: 40%;
+    height: 70%;
+}
+
+.ppal{
+    background-color: red;
+    width: 10%;
+    height: 10%;
 }
 
 div.reset {
-  clear: both;
+    clear: both;
 }
 
-div.noticia1 img.izquierda1{
-    width: 40%;
-  height: 70%;
-    
-}
