@@ -4,7 +4,7 @@
     margin:0px;
     gap:5px;
     grid-template-areas: 
-
+        "banner"
         "nav"      
         "section"
         "footer";    
@@ -14,20 +14,35 @@ h1{
     font-family: sans-serif;
 }
 
-.padrebanner {
-  text-align: center;
-  width: 100%;
-  height: 80px;
-  
+.nav{
+    grid-area:nav;
+    background-color: beige;
+    width: 100%;
+    height:70px; 
+
 }
 
-.hijobanner {
-  margin-left: 100px;
-  margin-right: 220px;
-  display: inline-block;
-  
+nav li{
+    display:inline-block;
+    margin-left: 50px;
+
+}
+a {
+    text-decoration:none;
+    transition: background-color .5s;
 }
 
+a:hover {background-color: white;
+}
+nav a{
+    color:black;  
+} 
+
+nav ul{
+    text-align: center;
+    padding: 15px;
+    margin-right: 50px;
+}
 .tabla{
     width: 90%;
     margin-left: 5%;
@@ -91,11 +106,13 @@ h1{
 }
 
 .botoncerrarsesion{
+   
     background-color: darkkhaki;
     color:#fff;
     border-radius: 5px;
     padding: 5px 10px;
     text-decoration: none; 
+   
 }
 .section1{
 

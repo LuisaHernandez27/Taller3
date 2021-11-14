@@ -12,19 +12,20 @@
     <body>
          <div align="center" class="container">
 
-           <img class="logoppal" src="imagenes/logo.jpg" alt="logo">
-             
-           
+            <div class="padrebanner">
+                <div class="hijobanner"><img class="logoppal" src="imagenes/logo.jpg" alt="logo"></div>
+                <div class="hijobanner">UNIVERSIDAD ABC</div>
+                <div class="hijobanner"><a class="botoncerrarsesion" href="index.html">  Cerrar sesión </a></div>
+            </div>
              <nav class="nav"> 
 
                 <ul> 
-                    <li><a href="principal.html"> Inicio</a></li>
-                    <li><a href="EstudiantePrinciapl.jsp"> Estudiante</a></li>
-                    <li><a href="ProgramaPrincipal.jsp">Programa</a></li>
-                    <li><a class="botoncerrarsesion" href="index.html"> Cerrar sesión</a></li>
+                    <li><a href="imc.html"> Inicio</a></li>
+                    <li><a href="kilometraje.html"> Estudiante</a></li>
+                    <li><a href="notas.html">Facultades</a></li>
                 </ul> 
             </nav>
-        <h1>Facultades</h1>
+        <h1>Programas</h1>
         
         <a href="ControladorCategoria?accion=Eliminar" class="boton-nuevo">+</a>
         <table class="tabla">
@@ -41,8 +42,9 @@
                    for(int i=1;i<4;i++){
                 %>
                 <tr class="fila">
-                    <td class="celdita">Nombre facultad</td>
-                    <td class="celdita">Descripcion facultad</td>
+                    <td class="celdita">Codigo Programa</td>
+                    <td class="celdita">Descripcion</td>
+                    <td class="celdita">Codigo Facultad</td>
                     <td class="celdita">          
                         <a href="ControladorCategoria?accion=Editar"  class="boton-verde">Editar</a>
                         <a href="ControladorCategoria?accion=Eliminar" class="boton-rojo">Eliminar</a>
@@ -56,5 +58,5 @@
         </table>
           
     </body>
-    </div>
 </html>
+

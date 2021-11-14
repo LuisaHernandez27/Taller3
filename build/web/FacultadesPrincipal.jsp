@@ -12,6 +12,6 @@
     </head>
     <body>
         <div >
-            <jsp:include page="ControladorFacultad?accion=Editar"/> 
+            <jsp:include page="WEB-INF/Facultades/ListFacultades.jsp"/> 
         </div>
     </body>

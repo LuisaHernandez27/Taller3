@@ -1,8 +1,4 @@
-<%-- 
-    Document   : ListFacultades
-    Created on : 7 nov. 2021, 19:48:21
-    Author     : Luisa
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -14,6 +10,20 @@
         <link rel="stylesheet" href="css/estilo.css" />
     </head>
     <body>
+         <div align="center" class="container">
+
+           <img class="logoppal" src="imagenes/logo.jpg" alt="logo">
+             
+           
+             <nav class="nav"> 
+
+                <ul> 
+                    <li><a href="principal.html"> Inicio</a></li>
+                    <li><a href="EstudiantePrinciapl.jsp"> Estudiante</a></li>
+                    <li><a href="ProgramaPrincipal.jsp">Programa</a></li>
+                    <li><a class="botoncerrarsesion" href="index.html"> Cerrar sesión</a></li>
+                </ul> 
+            </nav>
         <h1>Facultades</h1>
         
         <a href="ControladorCategoria?accion=Eliminar" class="boton-nuevo">+</a>
@@ -46,4 +56,5 @@
         </table>
           
     </body>
+    </div>
 </html>

@@ -1,8 +1,3 @@
-<%-- 
-    Document   : FacultadesPrincipal
-    Created on : 7 nov. 2021, 19:57:52
-    Author     : Luisa
---%>
 
 
     <head>
@@ -12,6 +7,6 @@
     </head>
     <body>
         <div >
-            <jsp:include page="WEB-INF/Facultades/ListFacultades.jsp"/> 
+            <jsp:include page="ControladorEstudiante?accion=Editar"/> 
         </div>
     </body>
