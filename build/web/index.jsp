@@ -12,13 +12,13 @@
 
                     <section style ="text-align: center" class="section1"> 
 
-                         <fieldset>   
+                        <fieldset>   
                         <h1 style ="text-align: center;">LOGIN</h1>
 
                          <img align="center" class= "logousuario" src="imagenes/logousuario.jpg" alt="logo"><br>
                          <a href="principal.html" > Principal </a>
                          
-            <form method="post" action="ControllerUser">
+            <form method="post" action="ControladorUsuario">
                             <input type="text" id="usuario" placeholder="Usuario" name="usuario"><br>
                             <input type="password" id="contraseña" placeholder="Contraseña" name="clave"><br><br>
 
