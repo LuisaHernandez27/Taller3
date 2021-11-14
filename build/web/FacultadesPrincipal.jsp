@@ -4,18 +4,14 @@
     Author     : Luisa
 --%>
 
-<html lang="en">
+
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <div class="container">
-            <div class="row">
-                <jsp:include page="WEB-INF/Facultades/ListFacultades.jsp"/> 
-            </div>
-
+        <div >
+            <jsp:include page="ControladorFacultad?accion=Editar"/> 
         </div>
     </body>
-</html>
