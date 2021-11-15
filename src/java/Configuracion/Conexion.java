@@ -13,8 +13,8 @@ public class Conexion {
         try {
             //Se escribe el código que deseamos se ejecute 
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            con = DriverManager.getConnection("jdbc:sqlserver://DESKTOP-VHULCMN\\SQLEXPRESS:1433;"
-                    + "database=dbAeropuerto;user=luisa;password=123");
+            con = DriverManager.getConnection("jdbc:sqlserver://DESKTOP-JGS14GN:1433;"
+                    + "database=db_Universidad;user=luisa;password=123");
 
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e);

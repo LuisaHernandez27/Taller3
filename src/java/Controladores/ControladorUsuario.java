@@ -80,8 +80,6 @@ public class ControladorUsuario extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
        
-         processRequest(request, response);
-         /*
         String opc = request.getParameter("btnIngreso");
         Usuario usuGlobal;
         UsuarioDAO usuDAO = new UsuarioDAO();
@@ -97,15 +95,15 @@ public class ControladorUsuario extends HttpServlet {
             
             if(usuGlobal.getNombreUsuario() != null){
                 sesion.setAttribute("usuarioG", usuGlobal);
-                rd = request.getRequestDispatcher("principal.jsp");
+                rd = request.getRequestDispatcher("principal.html");
             }else{
-                rd = request.getRequestDispatcher("index.jsp");
                 request.setAttribute("resultado","Error en los datos del usuario");
+                rd = request.getRequestDispatcher("index.jsp");
             }            
             rd.forward(request, response);          
             
             
-        }*/
+        }
     }
 
     /**

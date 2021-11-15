@@ -1,6 +1,8 @@
 
 package Entidades;
 
+import java.util.Date;
+
         
 public class Estudiantes {
     
@@ -10,23 +12,28 @@ public class Estudiantes {
     private String fechaNacimiento;
     private int celuar;
     private String email;
-    private String usuario;
-    private String password;
     private String estado;
 
-    public Estudiantes(int codEstudiante, String nombreEstudiante, String apellidoEstudiante, String fechaNacimiento, int celuar, String email, String usuario, String password, String estado) {
+    public Estudiantes(int codEstudiante, String nombreEstudiante, String apellidoEstudiante, String fechaNacimiento, int celuar, String email, String estado) {
         this.codEstudiante = codEstudiante;
         this.nombreEstudiante = nombreEstudiante;
         this.apellidoEstudiante = apellidoEstudiante;
         this.fechaNacimiento = fechaNacimiento;
         this.celuar = celuar;
         this.email = email;
-        this.usuario = usuario;
-        this.password = password;
         this.estado = estado;
     }
 
     public Estudiantes() {
+    }
+
+    public Estudiantes(String nombre, String apellido, String fecha, int celular, String correo, String estado) {
+        this.nombreEstudiante = nombre;
+        this.apellidoEstudiante = apellido;
+        this.fechaNacimiento = fecha;
+        this.celuar = celular;
+        this.email = correo;
+        this.estado = estado;
     }
     
 
@@ -76,22 +83,6 @@ public class Estudiantes {
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public String getUsuario() {
-        return usuario;
-    }
-
-    public void setUsuario(String usuario) {
-        this.usuario = usuario;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
     }
 
     public String getEstado() {

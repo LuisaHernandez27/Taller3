@@ -14,6 +14,14 @@ public class Programa {
         this.codFacultad = codFacultad;
     }
 
+    public Programa() {
+    }
+
+    public Programa(String des, int facultad) {
+        this.descripcion = des;
+        this.codFacultad = facultad;
+    }
+
     public int getCodPrograma() {
         return codPrograma;
     }

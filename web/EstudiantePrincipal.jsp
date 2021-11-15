@@ -7,6 +7,6 @@
     </head>
     <body>
         <div >
-            <jsp:include page="ControladorEstudiante?accion=Editar"/> 
+            <jsp:include page="WEB-INF/Estudiantes/ListEstudiante.jsp"/> 
         </div>
     </body>

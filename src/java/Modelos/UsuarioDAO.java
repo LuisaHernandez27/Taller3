@@ -13,7 +13,7 @@ public class UsuarioDAO {
     PreparedStatement ps = null;  
     ResultSet rs = null;
     
-    public static final String LOGIN = "select * from tblUsuarios where NombreUsuario = ?"
+    public static final String LOGIN = "select * from tblUsuario where NombreUsuario = ?"
             + " and Contrasena = ?";
     public Usuario login(Usuario usu) {
         Usuario u = new Usuario();

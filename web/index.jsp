@@ -24,6 +24,7 @@
 
                             <input class="botonppal" type="submit" value="Ingresar" name="btnIngreso"><br>
 
+                            <input type="hiden" value="resultado" name="resultado">
                             </form>
                         </fieldset>
 

@@ -11,6 +11,13 @@ public class Facultad{
         this.descripcion = descripcion;
     }
 
+    public Facultad() {
+    }
+
+    public Facultad(String des) {
+        descripcion = des;
+    }
+
     public int getCodFacultad() {
         return codFacultad;
     }
